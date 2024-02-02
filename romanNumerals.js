@@ -26,7 +26,7 @@ function toRomanLazy(num) {
   leftover = num % 1000;
   for (let i = 1; i <= M_adder; i++) {
     output += "M";
-  }
+  } 
   let D_adder = Math.floor(leftover / 500);
   leftover = leftover % 500;
   for (let i = 1; i <= D_adder; i++) {
